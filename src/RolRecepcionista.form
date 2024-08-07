@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="RolRecepcionista">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="891" height="673"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="cc06e" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12293449"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="6fbda" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Gestionar clientes"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <tabbedpane id="6e503" binding="tabbedPane2" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-12293449"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="2d1ea" layout-manager="GridLayoutManager" row-count="13" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Creacion de un cliente"/>
+                    </constraints>
+                    <properties>
+                      <background color="-7160577"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="d0cff" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Lucida Sans Typewriter" size="14"/>
+                          <foreground color="-15728457"/>
+                          <text value="Inserte la informacion correspondiente en cada uno de los campos"/>
+                        </properties>
+                      </component>
+                      <component id="98d63" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Arial Black" style="0"/>
+                          <foreground color="-16448251"/>
+                          <text value="ID del cliente"/>
+                        </properties>
+                      </component>
+                      <component id="2d27c" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Arial Black" style="0"/>
+                          <foreground color="-16448251"/>
+                          <text value="Nombre"/>
+                        </properties>
+                      </component>
+                      <component id="3d2c" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <font name="Arial Black" style="0"/>
+                          <foreground color="-16448251"/>
+                          <text value="Apellido"/>
+                        </properties>
+                      </component>
+                      <component id="f14e8" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <font name="Arial Black" style="0"/>
+                          <foreground color="-16448251"/>
+                          <text value="telefono"/>
+                        </properties>
+                      </component>
+                      <component id="380cb" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <font name="Arial Black" style="0"/>
+                          <foreground color="-16448251"/>
+                          <text value="Email"/>
+                        </properties>
+                      </component>
+                      <component id="e3060" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <font name="Arial Black" style="0"/>
+                          <foreground color="-16448251"/>
+                          <text value="Fecha de registro"/>
+                        </properties>
+                      </component>
+                      <component id="aca42" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <font name="Arial Black" style="0"/>
+                          <foreground color="-16448251"/>
+                          <text value="ID del recepcionista"/>
+                        </properties>
+                      </component>
+                      <component id="89488" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <font name="Arial Black" style="0"/>
+                          <foreground color="-16448251"/>
+                          <text value="Direccion"/>
+                        </properties>
+                      </component>
+                      <component id="5b9f4" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <font name="Arial Black" style="0"/>
+                          <foreground color="-16448251"/>
+                          <text value="Cedula"/>
+                        </properties>
+                      </component>
+                      <component id="808bc" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Arial Black" style="0"/>
+                          <foreground color="-16448251"/>
+                          <text value="Imagen"/>
+                        </properties>
+                      </component>
+                      <component id="aef40" class="javax.swing.JTextField" binding="IDclienteRecepcionistaC">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <font/>
+                          <foreground color="-16448251"/>
+                        </properties>
+                      </component>
+                      <component id="1ef22" class="javax.swing.JTextField" binding="NombreRecepcionistaC">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <font/>
+                          <foreground color="-16448251"/>
+                        </properties>
+                      </component>
+                      <component id="dee30" class="javax.swing.JTextField" binding="ApellidoRecepcionistaC">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <font/>
+                          <foreground color="-16448251"/>
+                        </properties>
+                      </component>
+                      <component id="ff16e" class="javax.swing.JTextField" binding="EmailRecepcionistaC">
+                        <constraints>
+                          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <font/>
+                          <foreground color="-16448251"/>
+                        </properties>
+                      </component>
+                      <component id="551c6" class="javax.swing.JTextField" binding="DireccionRecepcionistaC">
+                        <constraints>
+                          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <font/>
+                          <foreground color="-16448251"/>
+                        </properties>
+                      </component>
+                      <component id="37c92" class="javax.swing.JTextField" binding="FechaRegistroRecepcionistaC">
+                        <constraints>
+                          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <font/>
+                          <foreground color="-16448251"/>
+                        </properties>
+                      </component>
+                      <component id="aa921" class="javax.swing.JTextField" binding="CedulaRecepcionistaC">
+                        <constraints>
+                          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <font/>
+                          <foreground color="-16448251"/>
+                        </properties>
+                      </component>
+                      <component id="9b428" class="javax.swing.JTextField" binding="IDRecepcionistaC">
+                        <constraints>
+                          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <foreground color="-16448251"/>
+                        </properties>
+                      </component>
+                      <component id="795fc" class="javax.swing.JButton" binding="subirImagenDelClienteButton" default-binding="true">
+                        <constraints>
+                          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12293449"/>
+                          <foreground color="-394241"/>
+                          <text value="Subir imagen del cliente"/>
+                        </properties>
+                      </component>
+                      <component id="6a1d2" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12293449"/>
+                          <foreground color="-394241"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="49164" class="javax.swing.JButton" binding="volverAlMenuRolesButton" default-binding="true">
+                        <constraints>
+                          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12293449"/>
+                          <foreground color="-394241"/>
+                          <text value="Volver al menu roles"/>
+                        </properties>
+                      </component>
+                      <component id="c6537" class="javax.swing.JButton" binding="relizarLaInserccionDelButton" default-binding="true">
+                        <constraints>
+                          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12293449"/>
+                          <foreground color="-394241"/>
+                          <text value="Insertar registro"/>
+                        </properties>
+                      </component>
+                      <component id="d3dc2" class="javax.swing.JTextField" binding="TelefonoRecepcionistaC">
+                        <constraints>
+                          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <font/>
+                          <foreground color="-16448251"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="a64f3" layout-manager="GridLayoutManager" row-count="15" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Actualizacion y eliminacion de un cliente"/>
+                    </constraints>
+                    <properties>
+                      <background color="-7160577"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="da9d9" class="javax.swing.JTable" binding="table1" default-binding="true">
+                        <constraints>
+                          <grid row="2" column="0" row-span="4" col-span="4" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="50"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                        </properties>
+                      </component>
+                      <component id="34fe4" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="523a3" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="bbbb1" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="6" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Arial Narrow" size="14" style="1"/>
+                          <foreground color="-15728457"/>
+                          <text value="Actualizar el registro de un cliente"/>
+                        </properties>
+                      </component>
+                      <component id="41354" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <foreground color="-16448251"/>
+                          <text value="Seleccione el campo que desea actualizar"/>
+                        </properties>
+                      </component>
+                      <component id="fa84" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <foreground color="-16448251"/>
+                          <text value="Ingrese el nuevo valor"/>
+                        </properties>
+                      </component>
+                      <component id="eaeb2" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <foreground color="-16448251"/>
+                          <text value="Ingrese el id del cliente que desea modificar"/>
+                        </properties>
+                      </component>
+                      <component id="e0ce6" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="1352f" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Arial Narrow" size="14" style="1"/>
+                          <foreground color="-15728457"/>
+                          <text value="Eliminar el registro de un cliente"/>
+                        </properties>
+                      </component>
+                      <component id="c5463" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <foreground color="-16448251"/>
+                          <text value="Sleccione el id del cliente"/>
+                        </properties>
+                      </component>
+                      <component id="8cc42" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="ImagenDH.jpeg"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="abd32" class="javax.swing.JComboBox" binding="CoboBoxCliente">
+                        <constraints>
+                          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <model>
+                            <item value="id_cliente2"/>
+                            <item value="nombre"/>
+                            <item value="apellido"/>
+                            <item value="cedula"/>
+                            <item value="telefono"/>
+                            <item value="email"/>
+                            <item value="direccion"/>
+                            <item value="fecha_registro"/>
+                            <item value="id_recepcionista"/>
+                          </model>
+                        </properties>
+                      </component>
+                      <component id="b449d" class="javax.swing.JTextField" binding="MostrarComboBoxCliente">
+                        <constraints>
+                          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                        </properties>
+                      </component>
+                      <component id="2f641" class="javax.swing.JTextField" binding="NuevoValorCliente">
+                        <constraints>
+                          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                        </properties>
+                      </component>
+                      <component id="6b75f" class="javax.swing.JSpinner" binding="SpinnerIDCliente">
+                        <constraints>
+                          <grid row="9" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                        </properties>
+                      </component>
+                      <component id="ec5f9" class="javax.swing.JSpinner" binding="SpinnerEliminar">
+                        <constraints>
+                          <grid row="13" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                        </properties>
+                      </component>
+                      <component id="c66ad" class="javax.swing.JButton" binding="eliminarButton" default-binding="true">
+                        <constraints>
+                          <grid row="13" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12293449"/>
+                          <foreground color="-394241"/>
+                          <text value="Eliminar"/>
+                        </properties>
+                      </component>
+                      <component id="e788c" class="javax.swing.JButton" binding="actualizarButton" default-binding="true">
+                        <constraints>
+                          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12293449"/>
+                          <foreground color="-394241"/>
+                          <text value="Actualizar"/>
+                        </properties>
+                      </component>
+                      <component id="ed20c" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="793fa" layout-manager="GridLayoutManager" row-count="5" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Visualizar cliente"/>
+                    </constraints>
+                    <properties>
+                      <background color="-7160577"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="366d7" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="2c81f" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Lucida Sans Typewriter" size="14" style="1"/>
+                          <foreground color="-15728457"/>
+                          <text value="Busqueda de cliente por cedula "/>
+                        </properties>
+                      </component>
+                      <component id="75eda" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <foreground color="-16448251"/>
+                          <text value="Ingrese la cedula del cliente"/>
+                        </properties>
+                      </component>
+                      <component id="9938" class="javax.swing.JButton" binding="refrescarTablaButton" default-binding="true">
+                        <constraints>
+                          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12293449"/>
+                          <foreground color="-394241"/>
+                          <text value="Refrescar tabla"/>
+                        </properties>
+                      </component>
+                      <component id="9b97d" class="javax.swing.JButton" binding="buscarButton" default-binding="true">
+                        <constraints>
+                          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12293449"/>
+                          <font/>
+                          <foreground color="-394241"/>
+                          <text value="Buscar"/>
+                        </properties>
+                      </component>
+                      <component id="93731" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Lucida Sans Typewriter"/>
+                          <foreground color="-15728457"/>
+                          <text value="Imagen del cliente"/>
+                        </properties>
+                      </component>
+                      <component id="892c5" class="javax.swing.JTextField" binding="CedulaBuscarCliente">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                        </properties>
+                      </component>
+                      <component id="fc71e" class="javax.swing.JLabel" binding="ImagenCliente">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Bradley Hand ITC"/>
+                          <text value="Cargando........."/>
+                        </properties>
+                      </component>
+                      <component id="84e9c" class="javax.swing.JTable" binding="table2" default-binding="true">
+                        <constraints>
+                          <grid row="4" column="1" row-span="1" col-span="3" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="50"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <gridColor color="-16448251"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </tabbedpane>
+            </children>
+          </grid>
+          <grid id="6eaa7" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Gestionar reservas"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <tabbedpane id="8716e" binding="tabbedPane3" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                    <preferred-size width="200" height="200"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-12293449"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <grid id="bf17b" layout-manager="GridLayoutManager" row-count="10" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Creacion de reservas"/>
+                    </constraints>
+                    <properties>
+                      <background color="-7160577"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="f4159" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="9" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Lucida Sans Typewriter" size="14"/>
+                          <foreground color="-15728457"/>
+                          <text value="Inserte la informacion correspondiente en cada uno de los campos"/>
+                        </properties>
+                      </component>
+                      <component id="d347c" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="4" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Arial Black" style="0"/>
+                          <foreground color="-16448251"/>
+                          <text value="Fecha de salida del hostal"/>
+                        </properties>
+                      </component>
+                      <component id="631e5" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Arial Black" style="0"/>
+                          <foreground color="-16448251"/>
+                          <text value="Fecha de entrada al hostal"/>
+                        </properties>
+                      </component>
+                      <component id="d7b4b" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Arial Black" style="0"/>
+                          <foreground color="-16448251"/>
+                          <text value="ID de la reserva"/>
+                        </properties>
+                      </component>
+                      <component id="67a9e" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Arial Black" style="0"/>
+                          <foreground color="-16448251"/>
+                          <text value="Fecha de la reserva"/>
+                        </properties>
+                      </component>
+                      <component id="61ece" class="javax.swing.JTextField" binding="IDReservaC">
+                        <constraints>
+                          <grid row="1" column="4" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                        </properties>
+                      </component>
+                      <component id="7797a" class="javax.swing.JTextField" binding="FReservaReservaC">
+                        <constraints>
+                          <grid row="2" column="4" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                        </properties>
+                      </component>
+                      <component id="7f1e0" class="javax.swing.JTextField" binding="FEntradaReservaC">
+                        <constraints>
+                          <grid row="3" column="4" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                        </properties>
+                      </component>
+                      <component id="f3a92" class="javax.swing.JTextField" binding="FSalidaReservaC">
+                        <constraints>
+                          <grid row="4" column="4" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                        </properties>
+                      </component>
+                      <component id="bf974" class="javax.swing.JTextField" binding="IDHabitacionReservaC">
+                        <constraints>
+                          <grid row="6" column="4" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                        </properties>
+                      </component>
+                      <component id="5f413" class="javax.swing.JTextField" binding="IDRecepcionistaReservaC">
+                        <constraints>
+                          <grid row="7" column="4" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                        </properties>
+                      </component>
+                      <component id="e1947" class="javax.swing.JTextField" binding="IDClienteReservaC">
+                        <constraints>
+                          <grid row="8" column="4" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                        </properties>
+                      </component>
+                      <component id="481cf" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="5" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Arial Black" style="0"/>
+                          <foreground color="-16448251"/>
+                          <text value="Numero de huespedes"/>
+                        </properties>
+                      </component>
+                      <component id="b4be6" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="6" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Arial Black" style="0"/>
+                          <foreground color="-16448251"/>
+                          <text value="ID de la habitacion"/>
+                        </properties>
+                      </component>
+                      <component id="ec2d5" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="7" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Arial Black" style="0"/>
+                          <foreground color="-16448251"/>
+                          <text value="ID del recepcionista"/>
+                        </properties>
+                      </component>
+                      <component id="b6897" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="8" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Arial Black" style="0"/>
+                          <foreground color="-16448251"/>
+                          <text value="ID del cliente"/>
+                        </properties>
+                      </component>
+                      <component id="65208" class="javax.swing.JButton" binding="realizarInserccionDelRegistroButton" default-binding="true">
+                        <constraints>
+                          <grid row="9" column="4" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12293449"/>
+                          <foreground color="-394241"/>
+                          <text value="Realizar inserccion del registro"/>
+                        </properties>
+                      </component>
+                      <component id="a00f" class="javax.swing.JSpinner" binding="NhuespedesReservaC">
+                        <constraints>
+                          <grid row="5" column="4" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                  <grid id="b27bc" layout-manager="GridLayoutManager" row-count="17" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                    <margin top="0" left="0" bottom="0" right="0"/>
+                    <constraints>
+                      <tabbedpane title="Actualizacion y eliminacion de reservas"/>
+                    </constraints>
+                    <properties>
+                      <background color="-7160577"/>
+                    </properties>
+                    <border type="none"/>
+                    <children>
+                      <component id="15fc2" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="16" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Ariel Catucuamhba"/>
+                        </properties>
+                      </component>
+                      <component id="c1af4" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="2c47e" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="15" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value="Autor:"/>
+                        </properties>
+                      </component>
+                      <component id="a5cc5" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="0" row-span="12" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <icon value="ImgRese.jpeg"/>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="89d87" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="13" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <text value=""/>
+                        </properties>
+                      </component>
+                      <component id="88a3c" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="1" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <font name="Arial Narrow" size="14" style="1"/>
+                          <foreground color="-15728457"/>
+                          <text value="Actualizar el registro de una reserva"/>
+                        </properties>
+                      </component>
+                      <component id="d9ce5" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <foreground color="-16448251"/>
+                          <text value="Campo a actuatilzar "/>
+                        </properties>
+                      </component>
+                      <component id="c63b8" class="javax.swing.JTable" binding="table3">
+                        <constraints>
+                          <grid row="14" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="50"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <foreground color="-16381944"/>
+                        </properties>
+                      </component>
+                      <component id="479c2" class="javax.swing.JTextField" binding="MostrarCampoReserva">
+                        <constraints>
+                          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <foreground color="-16448251"/>
+                        </properties>
+                      </component>
+                      <component id="1abea" class="javax.swing.JComboBox" binding="comboBoxActualizarReserva">
+                        <constraints>
+                          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <model>
+                            <item value="id_reserva"/>
+                            <item value="fecha_reserva"/>
+                            <item value="fecha_entrada"/>
+                            <item value="fecha_salida"/>
+                            <item value="numero_huespedes"/>
+                            <item value="id_habitacion"/>
+                            <item value="id_recepcionista"/>
+                            <item value="id_cliente"/>
+                          </model>
+                        </properties>
+                      </component>
+                      <component id="d1823" class="javax.swing.JTextField" binding="NuevoValorReserva">
+                        <constraints>
+                          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <foreground color="-16448251"/>
+                        </properties>
+                      </component>
+                      <component id="370b3" class="javax.swing.JTextField" binding="IDdelareservaCA">
+                        <constraints>
+                          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                          <foreground color="-16448251"/>
+                        </properties>
+                      </component>
+                      <component id="df8e3" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <foreground color="-16448251"/>
+                          <text value="Nuevo valor"/>
+                        </properties>
+                      </component>
+                      <component id="6bea8" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <foreground color="-16448251"/>
+                          <text value="ID de la reserva"/>
+                        </properties>
+                      </component>
+                      <component id="401ae" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="6" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12293449"/>
+                          <font name="Arial Narrow" size="14" style="1"/>
+                          <foreground color="-15728457"/>
+                          <text value="Eliminar el registro de una reserva"/>
+                        </properties>
+                      </component>
+                      <component id="d3d8e" class="javax.swing.JButton" binding="actualizarButton1" default-binding="true">
+                        <constraints>
+                          <grid row="2" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12293449"/>
+                          <foreground color="-394241"/>
+                          <text value="Actualizar"/>
+                        </properties>
+                      </component>
+                      <component id="e0007" class="javax.swing.JSpinner" binding="IDReservaEliminar">
+                        <constraints>
+                          <grid row="7" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12293449"/>
+                          <foreground color="-2104859"/>
+                        </properties>
+                      </component>
+                      <component id="d5cf3" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <foreground color="-16448251"/>
+                          <text value="ID de la reserva"/>
+                        </properties>
+                      </component>
+                      <component id="f6e4f" class="javax.swing.JButton" binding="eliminarButton1" default-binding="true">
+                        <constraints>
+                          <grid row="7" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12293449"/>
+                          <foreground color="-2104859"/>
+                          <text value="Eliminar"/>
+                        </properties>
+                      </component>
+                      <component id="6b0c1" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="9" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12293449"/>
+                          <font name="Arial Narrow" size="14" style="1"/>
+                          <foreground color="-15728457"/>
+                          <text value="Buscar registro por fecha de reserva"/>
+                        </properties>
+                      </component>
+                      <component id="58b79" class="javax.swing.JLabel">
+                        <constraints>
+                          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <foreground color="-16448251"/>
+                          <text value="Fecha de la reserva"/>
+                        </properties>
+                      </component>
+                      <component id="f7931" class="javax.swing.JTextField" binding="BuscarFechaReserva">
+                        <constraints>
+                          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                            <preferred-size width="150" height="-1"/>
+                          </grid>
+                        </constraints>
+                        <properties>
+                          <background color="-3153425"/>
+                        </properties>
+                      </component>
+                      <component id="f0a74" class="javax.swing.JButton" binding="buscarButton1" default-binding="true">
+                        <constraints>
+                          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12293449"/>
+                          <foreground color="-2104859"/>
+                          <text value="Buscar"/>
+                        </properties>
+                      </component>
+                      <component id="3dcb0" class="javax.swing.JButton" binding="refresarTablaButton" default-binding="true">
+                        <constraints>
+                          <grid row="10" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-12293449"/>
+                          <foreground color="-2104859"/>
+                          <text value="Refresar tabla"/>
+                        </properties>
+                      </component>
+                      <component id="60f35" class="javax.swing.JButton" binding="relizarPdfDeLaButton" default-binding="true">
+                        <constraints>
+                          <grid row="12" column="2" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                        </constraints>
+                        <properties>
+                          <background color="-14064005"/>
+                          <foreground color="-394241"/>
+                          <text value="Relizar pdf de la reserva"/>
+                        </properties>
+                      </component>
+                    </children>
+                  </grid>
+                </children>
+              </tabbedpane>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="PantallaInicio">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="666" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <tabbedpane id="5d04c" binding="tabbedPane1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="200"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-12293449"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="2f987" layout-manager="GridLayoutManager" row-count="4" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Administrador"/>
+            </constraints>
+            <properties>
+              <background color="-7160577"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="cb84f" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Britannic Bold" size="18"/>
+                  <foreground color="-15728457"/>
+                  <text value="Validacion de credenciales del administrador"/>
+                </properties>
+              </component>
+              <component id="1e471" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-7160577"/>
+                  <icon value="logo.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="784e3" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-394241"/>
+                  <text value="Usuario"/>
+                </properties>
+              </component>
+              <component id="8aa19" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-394241"/>
+                  <text value="Contraseña"/>
+                </properties>
+              </component>
+              <component id="5b380" class="javax.swing.JTextField" binding="usuA">
+                <constraints>
+                  <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-3153425"/>
+                </properties>
+              </component>
+              <component id="9de79" class="javax.swing.JTextField" binding="conA">
+                <constraints>
+                  <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-3153425"/>
+                </properties>
+              </component>
+              <component id="38209" class="javax.swing.JButton" binding="validacionDeCredencialesButton" default-binding="true">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12293449"/>
+                  <foreground color="-394241"/>
+                  <text value="Validacion de credenciales"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="acdf" layout-manager="GridLayoutManager" row-count="4" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Recepcionista"/>
+            </constraints>
+            <properties>
+              <background color="-7160577"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="f032b" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Britannic Bold" size="18"/>
+                  <foreground color="-15728457"/>
+                  <text value="Validacion de credenciales de un recepcionista"/>
+                </properties>
+              </component>
+              <component id="1ac6a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="logo.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="b328a" class="javax.swing.JButton" binding="validacionDeCredencialesButton1" default-binding="true">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12293449"/>
+                  <foreground color="-394241"/>
+                  <text value="Validacion de credenciales"/>
+                </properties>
+              </component>
+              <component id="90e22" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-394241"/>
+                  <text value="Contraseña"/>
+                </properties>
+              </component>
+              <component id="ef8c4" class="javax.swing.JTextField" binding="usuarioR">
+                <constraints>
+                  <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-3153425"/>
+                </properties>
+              </component>
+              <component id="baa4d" class="javax.swing.JTextField" binding="ContraR">
+                <constraints>
+                  <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="150" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-3153425"/>
+                </properties>
+              </component>
+              <component id="5d38c" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <foreground color="-394241"/>
+                  <text value="Usuario"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="85d8f" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <tabbedpane title="Cliente"/>
+            </constraints>
+            <properties>
+              <background color="-7160577"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="94cd1" class="javax.swing.JButton" binding="habitacionesButton" default-binding="true">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-12293449"/>
+                  <foreground color="-394241"/>
+                  <text value="Visualizar habitaciones"/>
+                </properties>
+              </component>
+              <component id="8a702" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="4" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="logo.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="7f4c8" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="1" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="Britannic Bold" size="18"/>
+                  <foreground color="-15728457"/>
+                  <text value="Bienevido al Hostal El Colibri"/>
+                </properties>
+              </component>
+              <component id="10178" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <icon value="HabitacionesC_200x133.jpg"/>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>
