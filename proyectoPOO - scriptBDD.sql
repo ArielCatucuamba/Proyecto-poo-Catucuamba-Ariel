@@ -12,7 +12,7 @@ insert into logue_administrador(usuario,contrasenia) values
 ("Ariel Catucuamba","AC_ADM*_*"),("Jimena DiaZ","jd_ADM*_*");
 SELECT * FROM logue_administrador;
 
- 
+ --Credenciales
 
 
 -- Creacion de una tabla para la validacion de credenciales del RECEPCIONISTA
